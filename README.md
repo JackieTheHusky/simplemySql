@@ -13,7 +13,7 @@ That being said, I will document my progress and bring up things that a beginner
   <li>Calling data when given a first and last initial</li>
   <li>Calling data that uses multiple join statements</li>
 </ul> </li>
-<li>Funtion to call the difference of dates</li>
+<li>Function to call the difference of dates</li>
 </ol>
 
 # HOW TO USE?
