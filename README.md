@@ -40,7 +40,7 @@ It takes the first name and last name and outputs(given you have the tables with
   <li>After "CREATE DEFINER='' ", then copy my code</li>
 </ol>
 <h4>What does this do?</h4>
-It takes your first name and your last name's intial to give a table of names in which said actor has been in
+It takes your first name and your last name's initial to give a table of names in which said the actor has been in
 
 <h2>funtion</h2>
 <ol>
@@ -48,7 +48,7 @@ It takes your first name and your last name's intial to give a table of names in
   <li>After "CREATE DEFINER='' ", then copy my code</li>
 </ol>
 <h4>What does this do?</h4>
-Given a name it gives all the dates since they first bought an item and the day they retuned the item 
+Given a name, it gives all the dates since they first bought an item and the day they returned the item 
 
 # WHAT I'VE LEARNED
 <ol>
