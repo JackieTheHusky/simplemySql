@@ -42,7 +42,7 @@ It takes the first name and last name and outputs(given you have the tables with
 <h4>What does this do?</h4>
 It takes your first name and your last name's initial to give a table of names in which said the actor has been in
 
-<h2>funtion</h2>
+<h2>function</h2>
 <ol>
  <li>Create a Funtion</li>
   <li>After "CREATE DEFINER='' ", then copy my code</li>
