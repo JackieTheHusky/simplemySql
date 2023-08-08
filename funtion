@@ -1,0 +1,11 @@
+FUNCTION `check_time_between_return`(firstnamesr VARCHAR(40),lastnamesr VARCHAR(40)) RETURNS time
+    READS SQL DATA
+BEGIN
+DECLARE timeforperson TIME;
+
+SELECT TIMEDIFF(last_update, create_date) INTO timeforperson
+	FROM customers c
+WHERE firstnamesr = first_name AND last_name = lastnamesr;
+
+RETURN timeforperson;
+END
