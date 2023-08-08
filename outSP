@@ -1,0 +1,25 @@
+PROCEDURE `total_money_gain`(IN firstnamesr VARCHAR(40), 
+ IN lastnamesr VARCHAR(40),
+ OUT total_money DECIMAL(10,2))
+    READS SQL DATA
+
+BEGIN
+CREATE TEMPORARY TABLE list_of_money(money_earned DECIMAL(10,2) NOT NULL);
+
+INSERT INTO list_of_money(money_earned)
+SELECT DATEDIFF(return_date, rental_date) * rental_rate/rental_duration AS money_earned 
+	FROM customer c
+		JOIN rental r
+			USING (customer_id)
+		JOIN inventory i
+			USING (inventory_id)
+		JOIN film f
+			USING (film_id)
+		WHERE c.first_name=firstnamesr AND c.last_name = lastnamesr;
+SELECT 
+	SUM(money_earned) leasttotalpaid
+    FROM list_of_money INTO total_money;
+
+DROP TABLE list_of_money;
+
+END
