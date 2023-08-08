@@ -19,7 +19,7 @@ That being said, I will document my progress and bring up things that a beginner
 # HOW TO USE?
 <h2>tables</h2>
 <ol>
-  <li>Use the codes</li>
+  <li>Use the table scripts</li>
   <li>Use  " INSERT INTO `[table name]` VALUES ([filler], [filler], [filler], ...), ([filler 2], [filler 2], [filler 2], ...) ... " and so on to fill with data(tbh use this is the same as w3schools)</li>
 </ol>
   Or use the preset that comes with MySQL
