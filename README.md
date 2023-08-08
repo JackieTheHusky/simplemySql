@@ -1,5 +1,5 @@
 # WHAT IS IN THIS?
-The contenting code is very base level and not made with thoughts of it being used by anybody else. 
+The scripts is very base level and not made with thoughts of it being used by anybody else. 
 
 That being said, I will document my progress and bring up things that a beginner(like myself) may also find helpful.
 (it can also be used to hopefully show my growth and cause amusement for later)
