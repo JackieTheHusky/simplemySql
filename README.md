@@ -50,7 +50,7 @@ It takes your first name and your last name's initial to give a table of names i
 <h4>What does this do?</h4>
 Given a name, it gives all the dates since they first bought an item and the day they returned the item 
 
-# WHAT I'VE LEARNED
+# IMPORTANT NOTES 
 <ol>
   <li>'JOIN' need to be used carefully as they can have LEFT JOIN and RIGHT JOIN</li>
   <li>'IF' needs a condition to work, and that condition is most likely not going to work if you are trying to compare something within a column</li>
@@ -61,7 +61,7 @@ Given a name, it gives all the dates since they first bought an item and the day
   <li>'OUT' seems to be what we get out from the STORED PROCEDURE and thus you will have to name it a @ or a variable which can be called if it needs to be viewed</li>
 </ol>
 
-# MORE THING I NEED TO LOOK MORE INTO
+# TODO
 <ol>
   <li>In Stored Procedures, if you wish to get a table as an output the 'OUT' is not a viable strategy</li>
   <li>What 'IN', 'OUT', and 'INOUT' do exactly</li>  
